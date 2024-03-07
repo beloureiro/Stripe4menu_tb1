@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stripe Pricing Table Widget</title>
+    <title>Tabela de Pagamento</title>
     <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+    <style>
+        stripe-pricing-table {
+            border-radius: 20px; /* Aplica bordas arredondadas */
+            overflow: hidden; /* Garante que o conteúdo interno também respeite as bordas arredondadas */
+        }
+    </style>
 </head>
 <body>
     <stripe-pricing-table pricing-table-id="prctbl_1OredGII169DhRMoqA4HaRRd"
